@@ -1,5 +1,6 @@
 import unittest
-from helloWorld.py import HelloWorld
+# __init__.py tiene que tar
+from code.helloWorld import HelloWorld
 
 class HelloWorldTest(unittest.TestCase):
     def test_HelloWorld(self):
